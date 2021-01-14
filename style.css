@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  #search-card {
+    background: rgb(248, 248, 248);
+  }
+  
+  .history {
+    margin-top: 10px;
+  }
+  
+  #search-div {
+    float: left;
+  }
+  
+  .daily-space {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  
+  #uvText {
+    color: white;
+  }
+  .hide {
+    display: none;
+  }
+  
+  #historydiv {
+    max-height: 150px;
+  }
