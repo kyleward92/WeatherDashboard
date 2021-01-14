@@ -21,5 +21,22 @@ if (localstorage) {
     var queryURL =
       "https://api.openweathermap.org/data/2.5/weather?q=" +
       city +
-      "&appid=a40d7a1a6831874bf11b6952becc82c2";
+      "&appid=5e133bfa196135d4259ada67ef98d8db";
     var apiKey = "5e133bfa196135d4259ada67ef98d8db";
+     //ajax call for the present day forecast
+  $.ajax({
+    url: queryURL,
+    method: "GET",
+  }).then(function (response) {
+    // console.log("response:", response);
+    tempConvert = Math.round((response.main.temp - 273.15) * 1.8 + 32);
+    weatherIcon = response.weather[0].icon;
+    iconURL = "https://openweathermap.org/img/wn/" + weatherIcon + "@2x.png";
+    lat = response.coord.lat;
+    lon = response.coord.lon;
+    uvURL =
+      "https://api.openweathermap.org/data/2.5/uvi?lat=" +
+      lat +
+      "&lon=" +
+      lon +
+      "&appid=5e133bfa196135d4259ada67ef98d8db";
