@@ -2,7 +2,7 @@
 
 Link to Github: https://github.com/kyleward92/WeatherDashboard.git
 
-Link to deployed app: https://kyleward92.github.io/Day-Planner/
+Link to deployed app: https://kyleward92.github.io/WeatherDashboard/
 
 A simple weather dashboard app that allows you to search for a city and then will provide the present day and additional 5 day forecast for that city. Any city in the world can be searched for. When a city is searched for, it will add that city to the search history list. When the user clicks on any of the items on the search history list, it will bring up the forecast information for the city that was clicked. If the user refreshes/closes the page and returns, the previous search history will remain.
 
@@ -21,7 +21,7 @@ None
 
 Kyle Ward https://github.com/kyleward92/WeatherDashboard.git
 
-https://i.ibb.co/fH3j1zT/Weather-Dashboard.png
+https://kyleward92.github.io/WeatherDashboard/
 
 
 
