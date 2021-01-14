@@ -40,3 +40,19 @@ if (localstorage) {
       "&lon=" +
       lon +
       "&appid=5e133bfa196135d4259ada67ef98d8db";
+       //attaching ajax call data to html elements
+    $("#daily-div").removeClass("hide");
+    $("#city-date").text(response.name + " (" + (moment().format("l") + ")"));
+    $("#city-date").append("<span><img src=" + iconURL + "></span>");
+    $("#temp-p").text("Temperature: " + tempConvert + " °F");
+    $("#humid-p").text("Humidity: " + response.main.humidity + "%");
+    $("#wind-p").text("Wind Speed: " + response.wind.speed + " MPH");
+     //second ajax call for UV index
+     $.ajax({
+        url: uvURL,
+        method: "GET",
+      }).then(function (response) {
+        uvValue = response.value;
+        $("#UV-p").html(
+          "<p>UV Index:<span id='uvText'> " + response.value + "</span></p>"
+        );
