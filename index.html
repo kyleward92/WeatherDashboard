@@ -18,7 +18,29 @@
   </head>
   <body>
     <h1>Weather Dashboard</h1>
-
+    
+    <div class="container" id="searchhistory">
+        <div class="container col-md-4" id="search-div">
+          <div class="row">
+            <div class="card" id="search-card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Search for a City:</h5>
+                <div class="input-group">
+                  <input type="text" id="input" class="form-control" />
+                  <span class="input-group-btn">
+                    <button id="search-btn" type="button" class="btn btn-primary">
+                      <span><i class="fas fa-search"></i></span>
+                    </button>
+                  </span>
+                  <div class="overflow-auto" id="historydiv" style="width: 18rem">
+                    <ul id="history" class="list-group list-group-flush"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 </body>
 </html>
