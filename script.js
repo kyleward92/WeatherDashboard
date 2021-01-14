@@ -1,0 +1,12 @@
+var tempConvert;
+var weatherIcon;
+var iconURL;
+var lat;
+var long;
+var uvURL;
+var currentDate;
+var fiveDayIcon;
+var history;
+var counter;
+var cityInput;
+var localstorage = JSON.parse(localStorage.getItem("historylist"));
