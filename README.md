@@ -6,7 +6,7 @@ Link to deployed app: https://kyleward92.github.io/Day-Planner/
 
 A simple weather dashboard app that allows you to search for a city and then will provide the present day and additional 5 day forecast for that city. Any city in the world can be searched for. When a city is searched for, it will add that city to the search history list. When the user clicks on any of the items on the search history list, it will bring up the forecast information for the city that was clicked. If the user refreshes/closes the page and returns, the previous search history will remain.
 
- ## A screenshot of the planner can be seen here: <p align="center">
+ ## A screenshot of the Weather Dashboard can be seen here: <p align="center">
   
   <img src="https://i.ibb.co/fH3j1zT/Weather-Dashboard.png" width="350" alt="accessibility text">
 </p>
